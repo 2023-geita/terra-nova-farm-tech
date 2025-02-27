@@ -15,7 +15,7 @@ const solutions = [
       "Regular monitoring reports delivered to your dashboard",
       "Historical data tracking to identify trends and patterns"
     ],
-    image: "https://images.unsplash.com/photo-1586771107445-d3ca888129ce?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+    image: "/images/illustrations/farm-monitoring.svg",
     color: "bg-green-50",
     iconColor: "text-green-600"
   },
@@ -41,7 +41,7 @@ const solutions = [
       "Seasonal performance comparisons",
       "Market intelligence integration for profit forecasting"
     ],
-    image: "https://images.unsplash.com/photo-1508857650881-82afec7a47f7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+    image: "/images/illustrations/data-visualization.svg",
     color: "bg-amber-50",
     iconColor: "text-amber-600"
   },
@@ -54,7 +54,7 @@ const solutions = [
       "Risk forecasting based on weather and crop conditions",
       "Integration with local supplier networks for quick resource access"
     ],
-    image: "https://images.unsplash.com/photo-1595355825761-edf979295edb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+    image: "/images/illustrations/precision-agriculture.svg",
     color: "bg-red-50",
     iconColor: "text-red-600"
   }

@@ -49,6 +49,29 @@ const Impact = () => {
     }
   ];
 
+  const sdgIcons = [
+    {
+      id: 2,
+      name: "Zero Hunger",
+      image: "/images/sdg/E-SDG-goals_icons-individual-rgb-02.png"
+    },
+    {
+      id: 13,
+      name: "Climate Action",
+      image: "/images/sdg/E-SDG-goals_icons-individual-rgb-13.png"
+    },
+    {
+      id: 12,
+      name: "Responsible Consumption",
+      image: "/images/sdg/E-SDG-goals_icons-individual-rgb-12.png"
+    },
+    {
+      id: 6,
+      name: "Clean Water",
+      image: "/images/sdg/E-SDG-goals_icons-individual-rgb-06.png"
+    }
+  ];
+
   return (
     <section className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -90,22 +113,12 @@ const Impact = () => {
               </p>
               
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                <div className="flex flex-col items-center p-4 bg-white rounded-lg shadow-sm">
-                  <img src="https://www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E-SDG-goals_icons-individual-rgb-02.png" alt="Zero Hunger" className="h-16 w-16 mb-2" />
-                  <span className="text-sm font-medium text-center">Zero Hunger</span>
-                </div>
-                <div className="flex flex-col items-center p-4 bg-white rounded-lg shadow-sm">
-                  <img src="https://www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E-SDG-goals_icons-individual-rgb-13.png" alt="Climate Action" className="h-16 w-16 mb-2" />
-                  <span className="text-sm font-medium text-center">Climate Action</span>
-                </div>
-                <div className="flex flex-col items-center p-4 bg-white rounded-lg shadow-sm">
-                  <img src="https://www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E-SDG-goals_icons-individual-rgb-12.png" alt="Responsible Consumption" className="h-16 w-16 mb-2" />
-                  <span className="text-sm font-medium text-center">Responsible Consumption</span>
-                </div>
-                <div className="flex flex-col items-center p-4 bg-white rounded-lg shadow-sm">
-                  <img src="https://www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E-SDG-goals_icons-individual-rgb-06.png" alt="Clean Water" className="h-16 w-16 mb-2" />
-                  <span className="text-sm font-medium text-center">Clean Water</span>
-                </div>
+                {sdgIcons.map((sdg) => (
+                  <div key={sdg.id} className="flex flex-col items-center p-4 bg-white rounded-lg shadow-sm">
+                    <img src={sdg.image} alt={sdg.name} className="h-16 w-16 mb-2" />
+                    <span className="text-sm font-medium text-center">{sdg.name}</span>
+                  </div>
+                ))}
               </div>
             </div>
           </div>
