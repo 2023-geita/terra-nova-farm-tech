@@ -81,7 +81,7 @@ const Hero = () => {
               <div className="absolute inset-0 bg-terra-500 rounded-3xl blur-xl opacity-10 scale-105 -rotate-3"></div>
               <div className="relative bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100">
                 <img 
-                  src="https://images.unsplash.com/photo-1564399579883-451a5d44ec08?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" 
+                  src="/images/illustrations/agriculture-drone.svg" 
                   alt="Drone scanning crops" 
                   className="w-full h-auto scale-in-animation"
                 />

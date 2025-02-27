@@ -28,7 +28,7 @@ const solutions = [
       "Up to 42% reduction in water consumption",
       "Automatic alerts for irrigation system failures"
     ],
-    image: "https://images.unsplash.com/photo-1439627071303-3afd3575a225?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
     color: "bg-blue-50",
     iconColor: "text-blue-600"
   },
