@@ -1,0 +1,123 @@
+
+<svg width="500" height="400" viewBox="0 0 500 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="400" fill="#f2f8f0"/>
+  
+  <!-- Field sections -->
+  <path d="M50 100 L450 100 L450 350 L50 350 Z" fill="#8abb74"/>
+  
+  <!-- Field grid patterns -->
+  <path d="M50 150 L450 150" stroke="white" stroke-width="1" opacity="0.5"/>
+  <path d="M50 200 L450 200" stroke="white" stroke-width="1" opacity="0.5"/>
+  <path d="M50 250 L450 250" stroke="white" stroke-width="1" opacity="0.5"/>
+  <path d="M50 300 L450 300" stroke="white" stroke-width="1" opacity="0.5"/>
+  
+  <path d="M100 100 L100 350" stroke="white" stroke-width="1" opacity="0.5"/>
+  <path d="M150 100 L150 350" stroke="white" stroke-width="1" opacity="0.5"/>
+  <path d="M200 100 L200 350" stroke="white" stroke-width="1" opacity="0.5"/>
+  <path d="M250 100 L250 350" stroke="white" stroke-width="1" opacity="0.5"/>
+  <path d="M300 100 L300 350" stroke="white" stroke-width="1" opacity="0.5"/>
+  <path d="M350 100 L350 350" stroke="white" stroke-width="1" opacity="0.5"/>
+  <path d="M400 100 L400 350" stroke="white" stroke-width="1" opacity="0.5"/>
+  
+  <!-- Different crop zones -->
+  <path d="M50 100 L200 100 L200 200 L50 200 Z" fill="#6ca253"/>
+  <path d="M300 200 L450 200 L450 350 L300 350 Z" fill="#aed09c"/>
+  <path d="M200 250 L300 250 L300 350 L200 350 Z" fill="#558242"/>
+  
+  <!-- Tablet/device frame -->
+  <rect x="150" y="30" width="200" height="150" rx="10" fill="white" stroke="#d1d5db" stroke-width="3"/>
+  <rect x="160" y="45" width="180" height="120" rx="5" fill="#f9fafb"/>
+  
+  <!-- Screen content -->
+  <rect x="170" y="55" width="160" height="100" fill="#f5f9ff"/>
+  
+  <!-- Field visualization on screen -->
+  <path d="M180 65 L320 65 L320 145 L180 145 Z" fill="#e5f1e0"/>
+  
+  <!-- Field grid on screen -->
+  <path d="M180 85 L320 85" stroke="#d1d5db" stroke-width="1"/>
+  <path d="M180 105 L320 105" stroke="#d1d5db" stroke-width="1"/>
+  <path d="M180 125 L320 125" stroke="#d1d5db" stroke-width="1"/>
+  
+  <path d="M200 65 L200 145" stroke="#d1d5db" stroke-width="1"/>
+  <path d="M220 65 L220 145" stroke="#d1d5db" stroke-width="1"/>
+  <path d="M240 65 L240 145" stroke="#d1d5db" stroke-width="1"/>
+  <path d="M260 65 L260 145" stroke="#d1d5db" stroke-width="1"/>
+  <path d="M280 65 L280 145" stroke="#d1d5db" stroke-width="1"/>
+  <path d="M300 65 L300 145" stroke="#d1d5db" stroke-width="1"/>
+  
+  <!-- Zone markings on screen -->
+  <path d="M180 65 L220 65 L220 105 L180 105 Z" fill="#6ca253" opacity="0.5"/>
+  <path d="M260 105 L320 105 L320 145 L260 145 Z" fill="#aed09c" opacity="0.5"/>
+  <path d="M220 125 L260 125 L260 145 L220 145 Z" fill="#558242" opacity="0.5"/>
+  
+  <!-- Alert indicator -->
+  <circle cx="200" cy="85" r="5" fill="#ef4444" stroke="white" stroke-width="1"/>
+  
+  <!-- Data indicators -->
+  <rect x="330" y="65" width="10" height="10" fill="#6ca253"/>
+  <text x="345" y="74" font-family="Arial" font-size="9" fill="#374151">Zone A - Corn</text>
+  
+  <rect x="330" y="85" width="10" height="10" fill="#aed09c"/>
+  <text x="345" y="94" font-family="Arial" font-size="9" fill="#374151">Zone B - Wheat</text>
+  
+  <rect x="330" y="105" width="10" height="10" fill="#558242"/>
+  <text x="345" y="114" font-family="Arial" font-size="9" fill="#374151">Zone C - Soybeans</text>
+  
+  <circle cx="335" cy="125" r="5" fill="#ef4444"/>
+  <text x="345" y="129" font-family="Arial" font-size="9" fill="#374151">Pest Alert</text>
+  
+  <!-- Connecting lines -->
+  <path d="M200 85 L120 160" stroke="#ef4444" stroke-width="1" stroke-dasharray="3 3"/>
+  <circle cx="120" cy="160" r="10" fill="#ef4444" opacity="0.3"/>
+  <circle cx="120" cy="160" r="5" fill="#ef4444"/>
+  
+  <path d="M210 105 L100 180" stroke="#6ca253" stroke-width="1" stroke-dasharray="3 3"/>
+  <rect x="90" y="170" width="20" height="20" rx="3" fill="#6ca253" opacity="0.3"/>
+  
+  <path d="M290 125 L380 320" stroke="#aed09c" stroke-width="1" stroke-dasharray="3 3"/>
+  <rect x="370" y="310" width="20" height="20" rx="3" fill="#aed09c" opacity="0.3"/>
+  
+  <path d="M240 135 L250 320" stroke="#558242" stroke-width="1" stroke-dasharray="3 3"/>
+  <rect x="240" y="310" width="20" height="20" rx="3" fill="#558242" opacity="0.3"/>
+  
+  <!-- Annotations -->
+  <rect x="70" y="130" width="70" height="40" rx="5" fill="white" stroke="#ef4444" stroke-width="1"/>
+  <text x="75" y="150" font-family="Arial" font-size="8" fill="#ef4444">ALERT: Pest Detection</text>
+  <text x="75" y="162" font-family="Arial" font-size="8" fill="#ef4444">Corn Rootworm</text>
+  
+  <rect x="330" y="280" width="80" height="40" rx="5" fill="white" stroke="#aed09c" stroke-width="1"/>
+  <text x="335" y="300" font-family="Arial" font-size="8" fill="#374151">Soil Moisture: 38%</text>
+  <text x="335" y="312" font-family="Arial" font-size="8" fill="#374151">Irrigation Needed</text>
+  
+  <rect x="210" y="280" width="80" height="40" rx="5" fill="white" stroke="#558242" stroke-width="1"/>
+  <text x="215" y="300" font-family="Arial" font-size="8" fill="#374151">Growth Rate: +15%</text>
+  <text x="215" y="312" font-family="Arial" font-size="8" fill="#374151">Optimal Condition</text>
+  
+  <!-- Title -->
+  <text x="170" y="40" font-family="Arial" font-size="16" font-weight="bold" fill="#558242">Precision Agriculture Dashboard</text>
+  
+  <!-- Drone -->
+  <g transform="translate(350, 150)">
+    <!-- Drone body -->
+    <rect x="-15" y="-4" width="30" height="8" rx="2" fill="#333333"/>
+    <circle cx="0" cy="0" r="4" fill="#555555"/>
+    <circle cx="0" cy="0" r="2" fill="#777777"/>
+    
+    <!-- Drone arms -->
+    <rect x="-20" y="-4" width="15" height="2" rx="1" fill="#444444" transform="rotate(-45 -20 -4)"/>
+    <rect x="20" y="-4" width="15" height="2" rx="1" fill="#444444" transform="rotate(45 20 -4)"/>
+    <rect x="-20" y="4" width="15" height="2" rx="1" fill="#444444" transform="rotate(45 -20 4)"/>
+    <rect x="20" y="4" width="15" height="2" rx="1" fill="#444444" transform="rotate(-45 20 4)"/>
+    
+    <!-- Propellers -->
+    <ellipse cx="-28" cy="-12" rx="8" ry="1" fill="#555555"/>
+    <ellipse cx="28" cy="-12" rx="8" ry="1" fill="#555555"/>
+    <ellipse cx="-28" cy="12" rx="8" ry="1" fill="#555555"/>
+    <ellipse cx="28" cy="12" rx="8" ry="1" fill="#555555"/>
+    
+    <!-- Scanning beam -->
+    <path d="M0 5 L0 50" stroke="#558242" stroke-width="1" stroke-dasharray="3 2" opacity="0.7"/>
+  </g>
+</svg>
